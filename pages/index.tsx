@@ -15,8 +15,8 @@ export default function Home({ team, news, lay, mediaItems }: { team: any, news:
   return(
     <div className="bg-[#FEFCFB] min-h-screen">
       <Head>
-        <title>Mishra Lab</title>
-        <meta name="description" content="Mishra Lab Website" />
+        <title>Model Science</title>
+        <meta name="description" content="Model Science Website" />
         <link
           href="https://fonts.googleapis.com/css2?family=Jura:wght@400;600&display=swap"
           rel="stylesheet"
