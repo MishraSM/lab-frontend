@@ -43,7 +43,7 @@ export const getServerSideProps: GetServerSideProps<
 
     const cleanBaseUrl = baseUrl.replace(/\/$/, "");
 
-    const response = await fetch(`${cleanBaseUrl}/oppurtunity`);
+    const response = await fetch(`${cleanBaseUrl}/opportunity`);
 
     if (!response.ok) {
       console.error("Failed to fetch opportunities:", response.status);
